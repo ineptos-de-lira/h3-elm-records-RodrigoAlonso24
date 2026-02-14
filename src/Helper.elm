@@ -57,8 +57,8 @@ videoGames =
     ]
 
 
-getVideoGameGenres : List Videogame -> List (List String)
-getVideoGameGenres videogames =
+getVideogameGenres : List Videogame -> List (List String)
+getVideogameGenres videogames =
     List.map .genres videogames
 
 
